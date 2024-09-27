@@ -1,0 +1,57 @@
+* {
+    margin: 5px;
+    font-family: 'New Times Roman', sans-serif;
+    color: white;
+}
+
+header {
+    background-color:rgba(0, 106, 255, 0.959);
+    height: 70px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.slider {
+    background-color: red;
+    height: 170px;
+    padding-left: 10px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card {
+    background-color: greenyellow;
+    height: 130px;
+    padding-left: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.inf-container {
+    display: grid;
+    gap: 5px;
+}
+.inf1 {
+    background-color: silver;
+    height:220px;
+    padding-left: 10px;
+}
+
+.inf2 {
+    background-color: orange;
+    height: calc(250px / (2 + 10px));
+}
+
+footer {
+    background-color: cyan;
+    height: 70px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
